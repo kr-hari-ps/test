@@ -101,11 +101,11 @@ set "ICON_FILE="
 if exist "%REPO_ROOT%\assets\icons\filemint.ico" (
     copy /Y "%REPO_ROOT%\assets\icons\filemint.ico" "%APP_DIR%\filemint.ico" >nul
     set "ICON_FILE=%APP_DIR%\filemint.ico"
-    echo [+] Deployed Windows icon asset (.ico).
+    echo [+] Deployed Windows icon asset: filemint.ico
 ) else if exist "%REPO_ROOT%\icons\filemint.ico" (
     copy /Y "%REPO_ROOT%\icons\filemint.ico" "%APP_DIR%\filemint.ico" >nul
     set "ICON_FILE=%APP_DIR%\filemint.ico"
-    echo [+] Deployed Windows icon asset (.ico).
+    echo [+] Deployed Windows icon asset: filemint.ico
 )
 
 if exist "%REPO_ROOT%\assets\icons\filemint.png" (
